@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-11-16T16:53:44.581221+00:00",
+  "local_tests": {
+    "command": "npm test",
+    "contract_mocked_host_passed": 12,
+    "wallet_protocol_passed": 7,
+    "failed": 0,
+    "scope": "Local guards and provider protocol behavior; not chain consensus."
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "PASS",
+    "sdk": "genlayer-js 1.1.8",
+    "viem": "2.57.17",
+    "esbuild": "0.25.5",
+    "bundle_sha256": "4404ee2b2a719b2cc1a18ef14961e76510ac682ca0edb4d61c7184dd9704e15e"
+  },
+  "syntax_checks": [
+    "contracts/recalldock.py",
+    "scripts/live.mjs",
+    "scripts/verify.mjs",
+    "scripts/browser-acceptance.cjs"
+  ],
+  "logo": {
+    "file": "public/logo-512.png",
+    "width": 512,
+    "height": 512,
+    "format": "PNG",
+    "bytes": 11450
+  },
+  "wallet_tested": {
+    "testnet_session_signer": "Real browser transactions passed",
+    "eip6963_and_eip1193": "Local automated protocol tests passed",
+    "brand_wallets": [],
+    "walletconnect": "Not integrated"
+  },
+  "direct_browser_rpc_transport": "Not verified; acceptance used CA-verified real RPC relay"
+}

@@ -1,0 +1,14 @@
+# Limits and observed failures
+
+- RecallDock is an experimental Stable Studionet tool. It does not enforce a physical quarantine or replace FDA instructions.
+- Lot matching, inventory counts, handling evidence and the real independence of wallet holders are self-declared. Distinct addresses do not prove distinct organizations. Two colluding parties can attest false handling.
+- FDA data is authoritative-source data, not a guarantee of completeness, accuracy or real-time updates. The source snapshot includes the dataset publication date. It is verified once per case, not continuously refreshed. Source outages, unknown classifications, a missing record or validator differences fail closed. FDA updates during voting can require a later retry.
+- The acceptance record used `F-1170-2024`; the FDA response reported dataset publication `2026-11-04`. This is a historical ongoing recall, not a new incident discovered by RecallDock.
+- Exact consensus checks all displayed source fields but does not prove the authenticity of the physical lot. Terminated/Completed recalls still enter quarantine; the app never authorizes resale.
+- Only FDA food enforcement recall numbers are supported. Medicines, devices and other jurisdictions are outside this contract.
+- Lifetime limits: 2,000 cases overall, 64 per coordinator, 100 disposition history entries per case. Storage is public and immutable; do not submit personal or sensitive shipment details. There is no administrative deletion, recovery of a lost signing key or custodian reassignment. A lost party key can leave handling unconfirmed. Keep stable organizational wallets.
+- Session accounts are intentionally temporary and lost on refresh. They are useful for testnet evaluation only. External wallets are the recommended continuing-use path.
+- Seven local wallet tests cover separate providers, announcements, switching, listeners, finality distinction and account mismatch. No listed commercial wallet has undergone a real brand-specific signing test. WalletConnect QR is unavailable without a project ID and integration.
+- The first Node deployment attempt could not reach RPC because Node fetch did not use the inherited proxy; it failed before broadcasting. Enabling Node's environment-proxy support fixed it. One deployment was broadcast.
+- Headless Chromium's default proxy CA trust failed. Browser acceptance used a test-runner relay that forwarded actual RPC requests/responses with normal Node TLS verification. There were no fake responses. Direct browser transport and a physical mobile wallet remain unverified. Responsive layout was checked at 1440px and 390px with no horizontal overflow.
+- Expected chain failures are retained: an unauthorized coordinator proposal and a repeated confirmation both finalized with execution ERROR and left state unchanged.

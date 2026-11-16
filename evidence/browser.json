@@ -1,0 +1,58 @@
+{
+  "kind": "Real browser-signed Studionet transactions with explicit session accounts",
+  "transport": "Playwright forwards unchanged RPC requests to the real HTTPS endpoint using Node environment proxy and trusted CA. No mocked RPC results.",
+  "transactions": [
+    {
+      "label": "browser-create",
+      "hash": "0x4ef79a8d2dbb78326eb8ff3eaafd2f23e64c785fc4ca18f7f3fb922f5cfa3ad4",
+      "result": "Create response · UNVERIFIED · 0 resolved / 7 declared units"
+    },
+    {
+      "label": "browser-verify-fda",
+      "hash": "0xd1636beaacaf86714724e53b913eb29b39d567dca923f879f3161580c5a5448d",
+      "result": "Verify FDA recall · QUARANTINED · 0 resolved / 7 declared units"
+    },
+    {
+      "label": "browser-propose-return",
+      "hash": "0x0190b878eb16a64492774c10c5af80b6b887823ac8693d8254f0593998dd0634",
+      "result": "Propose disposition · AWAITING_CONFIRMATION · 0 resolved / 7 declared units"
+    },
+    {
+      "label": "browser-confirm-return",
+      "hash": "0x9b8274d23a857d2b156f3916f4d9878efe4605e29e98cc76994509ac71ac0670",
+      "result": "Confirm disposition · RECONCILED · 7 resolved / 7 declared units"
+    }
+  ],
+  "checks": [
+    "Finalized ledger read",
+    "Create, source verification, custodian proposal, coordinator confirmation via rendered UI"
+  ],
+  "owner": "0xC14Becafa7EBf13B8B5561732bDB9C7174A54c10",
+  "custodian": "0x05C7774579A23e9e05271c2Aa5CC17568ad2efcF",
+  "case_id": "0xc14becafa7ebf13b8b5561732bdb9c7174a54c10:browser-mwjhszgn",
+  "detail_text": "AWAITING_CONFIRMATION\nbrowser-mwjhszgn\n\n0xc14becafa7ebf13b8b5561732bdb9c7174a54c10:browser-mwjhszgn\n\nCOORDINATOR\n0xc14becafa7ebf13b8b5561732bdb9c7174a54c10\nCUSTODIAN\n0x05c7774579a23e9e05271c2aa5cc17568ad2efcf\nDECLARED LOT\nBrowser acceptance declaration; 05/24\nACCOUNTING\n0 resolved + 7 remaining = 7\nCONSENSUS-VERIFIED FDA RECORD\nF-1170-2024 · Class I\n\nHandNatural\nH&NATURAL 2 PACK! BRAZIL SEED 60 PIECES, PURE NATURAL SEMILLA DE BRASIL FOR 60 DAYS, 5 GRAMS PER BOX, 2 BLACK BOXES.\n\nReason\nProduct recalled due to the presence of yellow oleander and its components in the product.\n\nAffected codes\nNo Lot code on label. Expiration date listed as 05/24 and 03/24.\n\nFDA status: Ongoing\nDataset publication: 2026-11-04\nThis is a verification snapshot, not continuous monitoring.\n\nInspect official API record ↗\n\nThe declared lot match has not been independently verified. Compare the codes before handling.\n\nDisposition #1\n\nRETURN · 7 units\nReceipt: browser-acceptance-return-007\n\nConfirm handling\nReject proposal\nDisposition history\n\nNo confirmed or rejected dispositions yet.\n\nView contract ↗",
+  "mobile_overflow": false,
+  "page_errors": [],
+  "completed_at": "2026-11-16T16:46:14.292Z",
+  "final_ledger_reconciled_cards": 2,
+  "desktop_overflow": false,
+  "final_detail_text": "RECONCILED\nbrowser-mwjhszgn\n\n0xc14becafa7ebf13b8b5561732bdb9c7174a54c10:browser-mwjhszgn\n\nCOORDINATOR\n0xc14becafa7ebf13b8b5561732bdb9c7174a54c10\nCUSTODIAN\n0x05c7774579a23e9e05271c2aa5cc17568ad2efcf\nDECLARED LOT\nBrowser acceptance declaration; 05/24\nACCOUNTING\n7 resolved + 0 remaining = 7\nCONSENSUS-VERIFIED FDA RECORD\nF-1170-2024 · Class I\n\nHandNatural\nH&NATURAL 2 PACK! BRAZIL SEED 60 PIECES, PURE NATURAL SEMILLA DE BRASIL FOR 60 DAYS, 5 GRAMS PER BOX, 2 BLACK BOXES.\n\nReason\nProduct recalled due to the presence of yellow oleander and its components in the product.\n\nAffected codes\nNo Lot code on label. Expiration date listed as 05/24 and 03/24.\n\nFDA status: Ongoing\nDataset publication: 2026-11-04\nThis is a verification snapshot, not continuous monitoring.\n\nInspect official API record →\n\nThe declared lot match has not been independently verified. Compare the codes before handling.\n\nAll declared units reconciled ✓\n\nBoth parties confirmed handling for the entire declared quantity. This is not proof of physical destruction or product safety.\n\nDisposition history\n#1 · RETURN · 7 units · CONFIRMED\nbrowser-acceptance-return-007\n\nView contract →",
+  "final_ui_read_at": "2026-11-16T16:53:04.474Z",
+  "responsive_widths": {
+    "320": {
+      "horizontal_overflow": false
+    },
+    "360": {
+      "horizontal_overflow": false
+    },
+    "390": {
+      "horizontal_overflow": false
+    },
+    "768": {
+      "horizontal_overflow": false
+    },
+    "1440": {
+      "horizontal_overflow": false
+    }
+  }
+}
