@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-16T18:06:08.836Z",
+  "url": "http://127.0.0.1:4181",
+  "rpc_transport": "CA-verified real HTTPS relay; no mocked RPC responses",
+  "broadcasts": 0,
+  "checks": [
+    "Finalized live ledger read",
+    "Existing finalized transaction tracked and final state read back; no resubmission",
+    "Explicit session account connects and disconnects without signing",
+    "Reconciled detail shows verified FDA record and quantity accounting"
+  ],
+  "page_errors": [],
+  "loaded_cases": 2,
+  "resumed_existing_transaction": "0x9b8274d23a857d2b156f3916f4d9878efe4605e29e98cc76994509ac71ac0670",
+  "resume_result": "Read-only historical transaction review · RECONCILED · 7 resolved / 7 declared units",
+  "responsive_widths": {
+    "320": {
+      "horizontal_overflow": false
+    },
+    "360": {
+      "horizontal_overflow": false
+    },
+    "390": {
+      "horizontal_overflow": false
+    },
+    "768": {
+      "horizontal_overflow": false
+    },
+    "1440": {
+      "horizontal_overflow": false
+    }
+  }
+}

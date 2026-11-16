@@ -1,0 +1,168 @@
+{
+  "fields": {
+    "application_date": "2026/11/17",
+    "project_name": "RecallDock",
+    "primary_tag": "Other",
+    "secondary_tags": [],
+    "one_sentence": "A shared food-recall response ledger: verify FDA records through GenLayer consensus and reconcile quarantined inventory with two-party sign-off.",
+    "description": "RecallDock helps small food distributors and warehouse partners turn recall notices into accountable inventory responses. A coordinator declares a recall number, affected lot, unit count and independent custodian. GenLayer validators independently retrieve the official FDA food enforcement record and must agree on its identity, affected codes, reason, classification and publication version before inventory enters quarantine. The custodian proposes a partial or full return or destruction; only the coordinator can confirm the exact proposal revision. Rejected proposals remain auditable, replayed confirmations fail, and confirmed quantities must conserve the original count. The frontend signs real Stable Studionet transactions, waits for FINALIZED plus SUCCESS and reads back final state. FDA verification is a source snapshot; lot matching, inventory and physical handling remain signed participant declarations, not a safety certificate.",
+    "demo_video": "",
+    "steps": [
+      {
+        "title": "Connect two independent wallets",
+        "instructions": "Open the website. Connect an EIP-6963/EIP-1193 browser wallet and switch to Stable Studionet (61999). Use a different wallet as custodian. For evaluation only, create two explicit testnet session accounts; keep the tab open because their keys are not persisted."
+      },
+      {
+        "title": "Create a response",
+        "instructions": "As coordinator, enter a unique lowercase reference, FDA food recall number F-1170-2024, a clearly labelled test lot, quantity 7 and the second wallet address. Submit Create response. Wait for FINALIZED + SUCCESS and the finalized UNVERIFIED readback."
+      },
+      {
+        "title": "Verify the FDA source",
+        "instructions": "Open the case card and select Verify with GenLayer. Wait for FINALIZED + SUCCESS. Inspect the FDA record, affected codes, reason, classification and dataset publication date. The case must read QUARANTINED. Test inventory is not a claim about real goods."
+      },
+      {
+        "title": "Propose handling as custodian",
+        "instructions": "Switch to the designated custodian wallet. Open the same case, choose RETURN, enter 7 units and a labelled test receipt reference, then propose. Wait for FINALIZED + SUCCESS. The case must read AWAITING_CONFIRMATION; no units have yet been reconciled."
+      },
+      {
+        "title": "Confirm as coordinator",
+        "instructions": "Switch back to the coordinator wallet. Review the exact proposal revision and confirm handling. Wait for FINALIZED + SUCCESS. Read back RECONCILED, resolved 7 and remaining 0. For a real case, inspect the actual handling receipt before signing."
+      },
+      {
+        "title": "Inspect independent evidence",
+        "instructions": "Open the repository evidence directory and final-verification.json. Check finalized transaction hashes, the matching deployed source hash and both reconciled acceptance records. Existing records can be inspected read-only without any wallet."
+      }
+    ],
+    "expected_result": "The response progresses UNVERIFIED -> QUARANTINED -> AWAITING_CONFIRMATION -> RECONCILED. Finalized state shows 7 resolved + 0 remaining = 7 declared units and an accepted RETURN history entry. Source evidence contains FDA recall F-1170-2024. Each successful write must be FINALIZED with execution SUCCESS. Existing evidence also shows unauthorized handling and replayed confirmation finalizing with ERROR without changing inventory.",
+    "contract_links": [
+      "https://explorer-studio.genlayer.com/address/0x7CcF652AB06E72A58Ba4a68f2c752d621E2a53A1"
+    ],
+    "website": "https://xiaoyu7799.github.io/recalldock-genlayer/",
+    "github": "https://github.com/xiaoyu7799/recalldock-genlayer",
+    "required_proof_url": "https://github.com/xiaoyu7799/recalldock-genlayer",
+    "logo": "logo-512.png; original project mark; PNG RGBA; 512 x 512 pixels; under 2 MB",
+    "publication_status": "Repository published; website requires GitHub Pages activation and live verification."
+  },
+  "counts": {
+    "application_date": {
+      "characters": 10,
+      "utf16_units": 10,
+      "limit": null
+    },
+    "project_name": {
+      "characters": 10,
+      "utf16_units": 10,
+      "limit": null
+    },
+    "primary_tag": {
+      "characters": 5,
+      "utf16_units": 5,
+      "limit": null
+    },
+    "one_sentence": {
+      "characters": 144,
+      "utf16_units": 144,
+      "limit": 180
+    },
+    "description": {
+      "characters": 946,
+      "utf16_units": 946,
+      "limit": 1000
+    },
+    "demo_video": {
+      "characters": 0,
+      "utf16_units": 0,
+      "limit": null
+    },
+    "expected_result": {
+      "characters": 433,
+      "utf16_units": 433,
+      "limit": 500
+    },
+    "website": {
+      "characters": 49,
+      "utf16_units": 49,
+      "limit": null
+    },
+    "github": {
+      "characters": 49,
+      "utf16_units": 49,
+      "limit": null
+    },
+    "required_proof_url": {
+      "characters": 49,
+      "utf16_units": 49,
+      "limit": null
+    },
+    "logo": {
+      "characters": 75,
+      "utf16_units": 75,
+      "limit": null
+    },
+    "publication_status": {
+      "characters": 85,
+      "utf16_units": 85,
+      "limit": null
+    },
+    "step_1_title": {
+      "characters": 31,
+      "utf16_units": 31,
+      "limit": null
+    },
+    "step_1_instructions": {
+      "characters": 261,
+      "utf16_units": 261,
+      "limit": null
+    },
+    "step_2_title": {
+      "characters": 17,
+      "utf16_units": 17,
+      "limit": null
+    },
+    "step_2_instructions": {
+      "characters": 250,
+      "utf16_units": 250,
+      "limit": null
+    },
+    "step_3_title": {
+      "characters": 21,
+      "utf16_units": 21,
+      "limit": null
+    },
+    "step_3_instructions": {
+      "characters": 254,
+      "utf16_units": 254,
+      "limit": null
+    },
+    "step_4_title": {
+      "characters": 29,
+      "utf16_units": 29,
+      "limit": null
+    },
+    "step_4_instructions": {
+      "characters": 251,
+      "utf16_units": 251,
+      "limit": null
+    },
+    "step_5_title": {
+      "characters": 22,
+      "utf16_units": 22,
+      "limit": null
+    },
+    "step_5_instructions": {
+      "characters": 244,
+      "utf16_units": 244,
+      "limit": null
+    },
+    "step_6_title": {
+      "characters": 28,
+      "utf16_units": 28,
+      "limit": null
+    },
+    "step_6_instructions": {
+      "characters": 241,
+      "utf16_units": 241,
+      "limit": null
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-16T18:07:33.303328+00:00",
+  "base_commit": "59f00e3c8ad5f16a41ab197d3ddfe5e8595a2ef3",
+  "local_tests": {
+    "contract_mocked_host": 12,
+    "wallet_protocol": 7,
+    "failed": 0
+  },
+  "build": "PASS",
+  "contract_unchanged": true,
+  "chain": {
+    "chain_id": 61999,
+    "finalized": 13,
+    "success": 11,
+    "expected_error": 2,
+    "full_consensus": true,
+    "source_bytes_match": true,
+    "reconciled_readbacks": 2
+  },
+  "frontend": {
+    "page_errors": [],
+    "broadcasts": 0,
+    "widths": [
+      "320",
+      "360",
+      "390",
+      "768",
+      "1440"
+    ],
+    "transport": "CA-verified real HTTPS relay; no mocked RPC responses",
+    "brand_wallets_tested": []
+  },
+  "hosting": {
+    "website": "https://xiaoyu7799.github.io/recalldock-genlayer/",
+    "http_status": 404,
+    "initialization_http_status": 403,
+    "error": "Resource not accessible by integration",
+    "credential_permissions": {
+      "contents": "write",
+      "actions": "write",
+      "pages": null,
+      "administration": null
+    }
+  },
+  "quality_criteria": {
+    "trust_problem": "Two parties cannot unilaterally close declared recall inventory handling. FDA verification gates entry to quarantine and disposition.",
+    "authoritative_data": "Official openFDA food enforcement source; independent validator fetches; exact evidence agreement.",
+    "source_and_documentation": "Complete contract, frontend, build, usage and honest limits.",
+    "real_contract_interaction": "Historical browser-signed transactions plus fresh read-only finality tracking and finalized state readback. Direct browser RPC and branded-wallet signing are not newly verified.",
+    "substantial_product_behavior": "Quantity-conserving partial dispositions with custodian proposals, revision-bound coordinator confirmation and immutable rejection history."
+  }
+}

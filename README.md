@@ -4,6 +4,10 @@ A shared food-recall response ledger: verify an official FDA recall through GenL
 
 Small distributors and their warehouse partners often have a recall notice but no mutually accountable record of what happened to the affected inventory. RecallDock prevents one participant from closing a response alone. Every accepted disposition conserves the declared quantity; rejected proposals remain visible.
 
+Website target: https://xiaoyu7799.github.io/recalldock-genlayer/ (requires Pages activation).
+
+Project Explorer field copy and character counts: [submission/portal.md](submission/portal.md).
+
 ## Network and source
 
 - **Stable Studionet only:** chain `61999` (`0xf22f`), RPC `https://studio.genlayer.com/api`.
@@ -83,6 +87,10 @@ npm run live
 ```
 
 In a Node 24 environment requiring inherited HTTPS proxy settings, prefix network scripts with `NODE_USE_ENV_PROXY=1`. Keep the platform CA configuration. `live.mjs` refuses to run if an evidence journal already exists, preventing accidental duplicate deployment. It uses fresh temporary testnet accounts, zero transaction value and full consensus. It never logs or saves their keys.
+
+The read-only verifier can preserve its earlier record: `VERIFICATION_OUTPUT=evidence/final-verification.json node scripts/verify.mjs`. The latest revalidation is in [evidence/final-verification.json](evidence/final-verification.json).
+
+`node scripts/frontend-review.cjs` inspects live finalized records and tracks an existing successful transaction without broadcasting. It also checks session connect/disconnect and responsive layout. It requires the same optional Playwright/Chromium environment and `APP_URL` / `RPC_TEST_RELAY` settings as the acceptance runner.
 
 ## Optional browser acceptance runner
 
