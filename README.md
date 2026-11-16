@@ -6,7 +6,6 @@ Small distributors and their warehouse partners often have a recall notice but n
 
 **Live website:** https://xiaoyu7799.github.io/recalldock-genlayer/
 
-Project Explorer field copy and character counts: [submission/portal.md](submission/portal.md).
 
 ## Network and source
 
