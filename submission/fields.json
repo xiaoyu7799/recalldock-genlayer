@@ -41,7 +41,8 @@
     "github": "https://github.com/xiaoyu7799/recalldock-genlayer",
     "required_proof_url": "https://github.com/xiaoyu7799/recalldock-genlayer",
     "logo": "logo-512.png; original project mark; PNG RGBA; 512 x 512 pixels; under 2 MB",
-    "publication_status": "Repository published; website requires GitHub Pages activation and live verification."
+    "publication_status": "Published on GitHub Pages; online read-only verification passed.",
+    "logo_url": "https://xiaoyu7799.github.io/recalldock-genlayer/logo-512.png"
   },
   "counts": {
     "application_date": {
@@ -100,8 +101,8 @@
       "limit": null
     },
     "publication_status": {
-      "characters": 85,
-      "utf16_units": 85,
+      "characters": 64,
+      "utf16_units": 64,
       "limit": null
     },
     "step_1_title": {
@@ -162,6 +163,11 @@
     "step_6_instructions": {
       "characters": 241,
       "utf16_units": 241,
+      "limit": null
+    },
+    "logo_url": {
+      "characters": 61,
+      "utf16_units": 61,
       "limit": null
     }
   }

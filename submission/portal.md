@@ -6,7 +6,7 @@ Project name: RecallDock (10 characters).
 
 Primary tag: Other / 其他. Secondary tags: leave empty.
 
-Logo: [logo-512.png](../public/logo-512.png), original PNG RGBA, 512 × 512 pixels, 11,450 bytes. The form permits PNG/JPEG/WebP, 128–2048 px, up to 2 MB.
+Logo: [logo-512.png](https://xiaoyu7799.github.io/recalldock-genlayer/logo-512.png), original PNG RGBA, 512 × 512 pixels, 11,450 bytes. The form permits PNG/JPEG/WebP, 128–2048 px, up to 2 MB.
 
 ## One-sentence introduction
 
@@ -78,7 +78,7 @@ GitHub: https://github.com/xiaoyu7799/recalldock-genlayer
 
 Required proof type: GitHub Repository. URL: https://github.com/xiaoyu7799/recalldock-genlayer
 
-Website availability: Repository published; website requires GitHub Pages activation and live verification.
+Website availability: Published on GitHub Pages; online read-only verification passed.
 
 ## Field limits
 

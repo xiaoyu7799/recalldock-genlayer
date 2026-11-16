@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-16T18:17:49.849119+00:00",
+  "checks": [
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "stdout": "\n> recalldock@1.0.0 test\n> python3 tests/test_contract.py && node --test tests/*.test.mjs\n\n\u2714 EIP-6963 keeps different wallet providers distinct and deduplicates legacy reference (1.278109ms)\n\u2714 EIP-6963 announcements select the actual announced providers (0.325368ms)\n\u2714 unknown chain is added and confirmed; a refused switch fails (1.320712ms)\n\u2714 all EIP-1193 lifecycle listeners are registered and removed (0.562685ms)\n\u2714 ACCEPTED is never final; execution error is distinct from finality (0.244497ms)\n\u2714 account mismatch prevents eth_sendTransaction (0.433681ms)\n\u2714 finalized failures show the actual contract error (0.236896ms)\n\u2139 tests 7\n\u2139 suites 0\n\u2139 pass 7\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 328.410315\n",
+      "stderr": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.001s\n\nOK\nnpm notice\nnpm notice New major version of npm available! 11.9.0 -> 12.2.2\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2\nnpm notice To update run: npm install -g npm@12.2.2\nnpm notice\n"
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "stdout": "\n> recalldock@1.0.0 build\n> node scripts/build.mjs\n\n",
+      "stderr": "npm notice\nnpm notice New major version of npm available! 11.9.0 -> 12.2.2\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2\nnpm notice To update run: npm install -g npm@12.2.2\nnpm notice\n"
+    },
+    {
+      "command": "node --check scripts/online-review.cjs",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "bundle_sha256": "4404ee2b2a719b2cc1a18ef14961e76510ac682ca0edb4d61c7184dd9704e15e"
+}

@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-11-16T18:16:44.100Z",
+  "url": "https://xiaoyu7799.github.io/recalldock-genlayer/",
+  "transport": "CA-verified real HTTPS relay for cloud proxy compatibility; responses are not mocked. Browser direct TLS transport remains unverified.",
+  "resources": [
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/",
+      "status": 200,
+      "bytes": 7305,
+      "sha256": "390c2a3922b08fb201fc751df1a71b0671c66c51ad2374e5d12bb687708b39fc"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/style.css",
+      "status": 200,
+      "bytes": 12261,
+      "sha256": "b50385aafd1913959525526ca33f3e151b45ae21f3f265ad433b88de9a71a891"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/logo.svg",
+      "status": 200,
+      "bytes": 381,
+      "sha256": "3087f3755a519bd333400f2ae2cc3f431a6439dc409c12cf7cc77cc09b5ea0be"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/app.js?v=4404ee2b2a71",
+      "status": 200,
+      "bytes": 305723,
+      "sha256": "4404ee2b2a719b2cc1a18ef14961e76510ac682ca0edb4d61c7184dd9704e15e"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/logo.svg",
+      "status": 200,
+      "bytes": 381,
+      "sha256": "3087f3755a519bd333400f2ae2cc3f431a6439dc409c12cf7cc77cc09b5ea0be"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/logo.svg",
+      "status": 200,
+      "bytes": 381,
+      "sha256": "3087f3755a519bd333400f2ae2cc3f431a6439dc409c12cf7cc77cc09b5ea0be"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/style.css",
+      "status": 200,
+      "bytes": 12261,
+      "sha256": "b50385aafd1913959525526ca33f3e151b45ae21f3f265ad433b88de9a71a891"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/logo.svg",
+      "status": 200,
+      "bytes": 381,
+      "sha256": "3087f3755a519bd333400f2ae2cc3f431a6439dc409c12cf7cc77cc09b5ea0be"
+    },
+    {
+      "url": "https://xiaoyu7799.github.io/recalldock-genlayer/logo-512.png",
+      "status": 200,
+      "bytes": 11450,
+      "sha256": "26e6cd70cb3efcabad8489c4bbc94c3ead3f1d778a438fe1dd4daf002bf4b047"
+    }
+  ],
+  "checks": [
+    "Published page renders, hash navigation works and live finalized ledger loads",
+    "Existing successful transaction finalized and read back without resubmitting",
+    "Two distinct EIP-6963 protocol fixtures discovered and selected through EIP-1193; not branded wallets",
+    "Explicit session account connects/disconnects without signing",
+    "Reconciled detail and FDA evidence render on mobile"
+  ],
+  "page_errors": [],
+  "failed_requests": [],
+  "broadcasts": 0,
+  "brand_wallets_tested": [],
+  "loaded_cases": 2,
+  "chain_id": 61999,
+  "reused_transaction": "0x9b8274d23a857d2b156f3916f4d9878efe4605e29e98cc76994509ac71ac0670",
+  "readback": "Online historical read-only review · RECONCILED · 7 resolved / 7 declared units",
+  "widths": {
+    "320": {
+      "overflow": false
+    },
+    "360": {
+      "overflow": false
+    },
+    "390": {
+      "overflow": false
+    },
+    "768": {
+      "overflow": false
+    },
+    "1440": {
+      "overflow": false
+    }
+  }
+}

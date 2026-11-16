@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-16T18:18:27.044282+00:00",
+  "website": "https://xiaoyu7799.github.io/recalldock-genlayer/",
+  "hosting": "GitHub Pages main/docs; HTTP 200",
+  "resources_all_200": true,
+  "resource_hashes_match_local_build": true,
+  "chain_id": 61999,
+  "finalized_transactions": 13,
+  "success": 11,
+  "expected_errors": 2,
+  "source_bytes_match": true,
+  "full_consensus": true,
+  "reconciled_records": 2,
+  "new_broadcasts": 0,
+  "tests": {
+    "contract_mocked_host": 12,
+    "wallet_protocol": 7,
+    "all_pass": true
+  },
+  "browser_page_errors": [],
+  "browser_failed_requests": [],
+  "browser_transport": "CA-verified real HTTPS relay for cloud proxy compatibility; responses are not mocked. Browser direct TLS transport remains unverified.",
+  "commercial_wallets_tested": [],
+  "quality_criteria": {
+    "trust_problem": "Source-authenticated recall response; neither participant can unilaterally reconcile inventory.",
+    "authoritative_data": "Independent validator retrieval and exact agreement on official FDA food enforcement data.",
+    "complete_source_and_docs": "Public contract, frontend, reproducible build, source-matched deployment, usage and limitations.",
+    "real_contract_interaction": "Recorded real browser-signed writes reached FINALIZED/SUCCESS; deployed website now reads final state and tracks those same transactions without resending.",
+    "distinct_sustained_use": "Recall-gated quarantine and quantity-conserving two-party partial return/destruction workflow with immutable history."
+  }
+}

@@ -4,7 +4,7 @@ A shared food-recall response ledger: verify an official FDA recall through GenL
 
 Small distributors and their warehouse partners often have a recall notice but no mutually accountable record of what happened to the affected inventory. RecallDock prevents one participant from closing a response alone. Every accepted disposition conserves the declared quantity; rejected proposals remain visible.
 
-Website target: https://xiaoyu7799.github.io/recalldock-genlayer/ (requires Pages activation).
+**Live website:** https://xiaoyu7799.github.io/recalldock-genlayer/
 
 Project Explorer field copy and character counts: [submission/portal.md](submission/portal.md).
 
@@ -95,6 +95,12 @@ The read-only verifier can preserve its earlier record: `VERIFICATION_OUTPUT=evi
 ## Optional browser acceptance runner
 
 The included `scripts/browser-acceptance.cjs` uses Playwright (tested 1.62.1) and Chromium. Provide Playwright in your test environment; it is not shipped in the production bundle. Start the static server, then run `node scripts/browser-acceptance.cjs` from the repository root. It broadcasts four real zero-value transactions using two explicitly generated session accounts and journals every returned hash. It refuses to overwrite existing browser evidence. `APP_URL` and `CHROMIUM_PATH` select the test site/browser. For this cloud environment only, `RPC_TEST_RELAY=1 NODE_USE_ENV_PROXY=1` enables the CA-verified real RPC relay described below. It does not mock responses. Do not rerun a completed acceptance flow merely to regenerate screenshots.
+
+## Published website verification
+
+GitHub Pages serves the `main` branch's `docs/` directory. The published HTML, JavaScript, CSS and both logo formats returned HTTP 200 and matched the local build hashes. The online browser review checks hash navigation, five responsive widths (320–1440px), distinct EIP-6963/EIP-1193 protocol fixtures, explicit session connect/disconnect, live chain ID 61999, an existing FINALIZED/SUCCESS transaction and its reconciled readback. It blocks broadcasts and does not repeat the signed acceptance flow.
+
+Results: [evidence/online-review.json](evidence/online-review.json), [desktop](evidence/online-desktop.png), [mobile](evidence/online-mobile.png), and [latest chain revalidation](evidence/online-chain-verification.json). `scripts/online-review.cjs` reproduces this read-only check with the optional Playwright test environment. It uses a TLS-verified real HTTPS relay for the cloud proxy CA limitation; it does not mock page, asset or RPC responses. The public application itself uses direct HTTPS. The cloud browser's direct TLS path and commercial wallet signing remain unverified.
 
 ## Real acceptance evidence
 

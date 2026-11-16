@@ -1,0 +1,273 @@
+{
+  "checked_at": "2026-11-16T18:16:45.464Z",
+  "chain_id": 61999,
+  "transactions": [
+    {
+      "label": "deploy",
+      "hash": "0x2fcb716974b42fa0e7df3493697a7b83ba693ed97f31d3749b1e91beeffc6419",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "idle",
+        "0x29e027b307e32d2FB76825aB3cB21bcF79A433Aa": "agree",
+        "0xB64c3Fa67e1f33aA1EFc721B7Ac763f2070fCcA3": "idle",
+        "0xCCE41534BAa355c2C268Ebd9EFE4a9D395cd659B": "agree",
+        "0xDc3C84a9Bc42d0b91219c27B00bbbA8CA0F0259A": "agree"
+      }
+    },
+    {
+      "label": "open",
+      "hash": "0xd9d0ce1d6d1dc1d01078910f86eab15837a3c822501203a4d499494b5c05a6c3",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "agree",
+        "0x174A9261a34D502212bE59deB3319508b9ff0fD7": "agree",
+        "0x628f4d491b8753Be1eD022f6D920853b8b541937": "idle",
+        "0x7eFf7A59cf5cF0aA88817b5683d3F99caac1D4F9": "idle",
+        "0xDc5B687ca37c3C65a16Dd456e6Ce4CF8Be2FfC9d": "agree"
+      }
+    },
+    {
+      "label": "verify-fda",
+      "hash": "0xd98a0c37f7068caa939e097501f52fdefaa9a60c6bc51da2bdb2d0381fec3fad",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "agree",
+        "0x7d74A02562B3C443A6b12FE7996Bc5c9A578554E": "idle",
+        "0xDc5B687ca37c3C65a16Dd456e6Ce4CF8Be2FfC9d": "agree",
+        "0xd608c9ABb63F1776c7F0EE447194d8D7ea441b8b": "idle",
+        "0xeA908540c5FBB68Da844cC1BE5eaC8b23391e908": "agree"
+      }
+    },
+    {
+      "label": "unauthorized-proposal",
+      "hash": "0xca77723a56c0b3f60eafe1e994997d524e0c20e31af6c181a3347021e1c90458",
+      "status": "FINALIZED",
+      "execution_result": "ERROR",
+      "leader_only": false,
+      "votes": {
+        "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "agree",
+        "0x364A7fb8bf37b1D388c4A81B4b109d91334dC9fd": "agree",
+        "0x628f4d491b8753Be1eD022f6D920853b8b541937": "agree",
+        "0xB64c3Fa67e1f33aA1EFc721B7Ac763f2070fCcA3": "idle",
+        "0xE826F4232546894b7F1C6939309f22334de6d68a": "agree"
+      }
+    },
+    {
+      "label": "propose-return",
+      "hash": "0xb1039f5ebb315ece456316fea100d9a90c0bd51ecbed6bd8aeb5b364c0a581f5",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x174A9261a34D502212bE59deB3319508b9ff0fD7": "agree",
+        "0x364A7fb8bf37b1D388c4A81B4b109d91334dC9fd": "agree",
+        "0x5D4dD8d9f034c2fC742A1bE9C6d71D985d4D5Ac4": "idle",
+        "0x628f4d491b8753Be1eD022f6D920853b8b541937": "idle",
+        "0xE826F4232546894b7F1C6939309f22334de6d68a": "agree"
+      }
+    },
+    {
+      "label": "confirm-return",
+      "hash": "0x590c763a8eb1408d8c0bc97dfeb3eb806501a1867ae5a18a15ef34c1600bf0bc",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x29e027b307e32d2FB76825aB3cB21bcF79A433Aa": "agree",
+        "0x364A7fb8bf37b1D388c4A81B4b109d91334dC9fd": "agree",
+        "0xDc3C84a9Bc42d0b91219c27B00bbbA8CA0F0259A": "idle",
+        "0xDc5B687ca37c3C65a16Dd456e6Ce4CF8Be2FfC9d": "idle",
+        "0xd608c9ABb63F1776c7F0EE447194d8D7ea441b8b": "agree"
+      }
+    },
+    {
+      "label": "replay-confirmation",
+      "hash": "0x8a6c4edb390ede975ac25e601380c9e5d215ea7df050794864aa9b0cf43f32b5",
+      "status": "FINALIZED",
+      "execution_result": "ERROR",
+      "leader_only": false,
+      "votes": {
+        "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "agree",
+        "0x29e027b307e32d2FB76825aB3cB21bcF79A433Aa": "agree",
+        "0x7d74A02562B3C443A6b12FE7996Bc5c9A578554E": "agree",
+        "0xD2762A898b8262acB88024bf7d5Bb4336375cF22": "agree",
+        "0xf298378Fba762Ebf0cDf0c3dA90C33E730e1CdC3": "agree"
+      }
+    },
+    {
+      "label": "propose-destroy",
+      "hash": "0xc7e71d4aa407249de95cedaf3266284d05404e1bf761b21cdbd89e48b3eaf0ac",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x29e027b307e32d2FB76825aB3cB21bcF79A433Aa": "agree",
+        "0x5D4dD8d9f034c2fC742A1bE9C6d71D985d4D5Ac4": "idle",
+        "0x7eFf7A59cf5cF0aA88817b5683d3F99caac1D4F9": "idle",
+        "0xB64c3Fa67e1f33aA1EFc721B7Ac763f2070fCcA3": "agree",
+        "0xE826F4232546894b7F1C6939309f22334de6d68a": "agree"
+      }
+    },
+    {
+      "label": "confirm-destroy",
+      "hash": "0xad6bc188c6cdf81657ad14609f69d2f670c5f28aa87d596cc1e0782e16958a82",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x174A9261a34D502212bE59deB3319508b9ff0fD7": "agree",
+        "0x5D4dD8d9f034c2fC742A1bE9C6d71D985d4D5Ac4": "idle",
+        "0x7eFf7A59cf5cF0aA88817b5683d3F99caac1D4F9": "agree",
+        "0xD2762A898b8262acB88024bf7d5Bb4336375cF22": "agree",
+        "0xE826F4232546894b7F1C6939309f22334de6d68a": "agree"
+      }
+    },
+    {
+      "label": "browser-create",
+      "hash": "0x4ef79a8d2dbb78326eb8ff3eaafd2f23e64c785fc4ca18f7f3fb922f5cfa3ad4",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x0533e32Ae90B9065476eB89C2Bb655eCD98764BD": "agree",
+        "0x7eFf7A59cf5cF0aA88817b5683d3F99caac1D4F9": "agree",
+        "0xCCE41534BAa355c2C268Ebd9EFE4a9D395cd659B": "agree",
+        "0xDc3C84a9Bc42d0b91219c27B00bbbA8CA0F0259A": "agree",
+        "0xeA908540c5FBB68Da844cC1BE5eaC8b23391e908": "agree"
+      }
+    },
+    {
+      "label": "browser-verify-fda",
+      "hash": "0xd1636beaacaf86714724e53b913eb29b39d567dca923f879f3161580c5a5448d",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x29e027b307e32d2FB76825aB3cB21bcF79A433Aa": "agree",
+        "0x5D4dD8d9f034c2fC742A1bE9C6d71D985d4D5Ac4": "agree",
+        "0x7eFf7A59cf5cF0aA88817b5683d3F99caac1D4F9": "idle",
+        "0xCCE41534BAa355c2C268Ebd9EFE4a9D395cd659B": "idle",
+        "0xE826F4232546894b7F1C6939309f22334de6d68a": "agree"
+      }
+    },
+    {
+      "label": "browser-propose-return",
+      "hash": "0x0190b878eb16a64492774c10c5af80b6b887823ac8693d8254f0593998dd0634",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x628f4d491b8753Be1eD022f6D920853b8b541937": "agree",
+        "0x7d74A02562B3C443A6b12FE7996Bc5c9A578554E": "agree",
+        "0xCCE41534BAa355c2C268Ebd9EFE4a9D395cd659B": "idle",
+        "0xc4Ab6B9D74c72EB38D43645318Bb4aFb518a09be": "agree",
+        "0xf298378Fba762Ebf0cDf0c3dA90C33E730e1CdC3": "idle"
+      }
+    },
+    {
+      "label": "browser-confirm-return",
+      "hash": "0x9b8274d23a857d2b156f3916f4d9878efe4605e29e98cc76994509ac71ac0670",
+      "status": "FINALIZED",
+      "execution_result": "SUCCESS",
+      "leader_only": false,
+      "votes": {
+        "0x174A9261a34D502212bE59deB3319508b9ff0fD7": "agree",
+        "0x29e027b307e32d2FB76825aB3cB21bcF79A433Aa": "agree",
+        "0xB64c3Fa67e1f33aA1EFc721B7Ac763f2070fCcA3": "idle",
+        "0xD2762A898b8262acB88024bf7d5Bb4336375cF22": "agree",
+        "0xE826F4232546894b7F1C6939309f22334de6d68a": "agree"
+      }
+    }
+  ],
+  "readbacks": [
+    {
+      "custodian": "0x3253cc256c3eab6232644f3414bef2f4bdf7ad6d",
+      "history": [
+        {
+          "accepted": true,
+          "action": "RETURN",
+          "evidence_ref": "acceptance-return-receipt-001",
+          "quantity": 40,
+          "revision": 1
+        },
+        {
+          "accepted": true,
+          "action": "DESTROY",
+          "evidence_ref": "acceptance-destruction-receipt-002",
+          "quantity": 60,
+          "revision": 2
+        }
+      ],
+      "id": "0x2f15c95b3dae2a639e042c54349e209b404179d7:acceptance-lot",
+      "lot": "05/24 and 03/24; acceptance inventory declaration",
+      "owner": "0x2f15c95b3dae2a639e042c54349e209b404179d7",
+      "proposal": null,
+      "quantity": 100,
+      "recall_number": "F-1170-2024",
+      "reference": "acceptance-lot",
+      "remaining": 0,
+      "resolved": 100,
+      "revision": 2,
+      "source": {
+        "classification": "Class I",
+        "code_info": "No Lot code on label. Expiration date listed as 05/24 and 03/24.",
+        "dataset_updated": "2026-11-04",
+        "event_id": "93920",
+        "product_description": "H&NATURAL 2 PACK! BRAZIL SEED 60 PIECES, PURE NATURAL SEMILLA DE BRASIL FOR 60 DAYS, 5 GRAMS PER BOX, 2 BLACK BOXES.",
+        "reason_for_recall": "Product recalled due to the presence of yellow oleander and its components in the product.",
+        "recall_initiation_date": "20240209",
+        "recall_number": "F-1170-2024",
+        "recalling_firm": "HandNatural",
+        "report_date": "20240424",
+        "source_url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1170-2024%22&limit=1",
+        "status": "Ongoing"
+      },
+      "state": "RECONCILED"
+    },
+    {
+      "custodian": "0x05c7774579a23e9e05271c2aa5cc17568ad2efcf",
+      "history": [
+        {
+          "accepted": true,
+          "action": "RETURN",
+          "evidence_ref": "browser-acceptance-return-007",
+          "quantity": 7,
+          "revision": 1
+        }
+      ],
+      "id": "0xc14becafa7ebf13b8b5561732bdb9c7174a54c10:browser-mwjhszgn",
+      "lot": "Browser acceptance declaration; 05/24",
+      "owner": "0xc14becafa7ebf13b8b5561732bdb9c7174a54c10",
+      "proposal": null,
+      "quantity": 7,
+      "recall_number": "F-1170-2024",
+      "reference": "browser-mwjhszgn",
+      "remaining": 0,
+      "resolved": 7,
+      "revision": 1,
+      "source": {
+        "classification": "Class I",
+        "code_info": "No Lot code on label. Expiration date listed as 05/24 and 03/24.",
+        "dataset_updated": "2026-11-04",
+        "event_id": "93920",
+        "product_description": "H&NATURAL 2 PACK! BRAZIL SEED 60 PIECES, PURE NATURAL SEMILLA DE BRASIL FOR 60 DAYS, 5 GRAMS PER BOX, 2 BLACK BOXES.",
+        "reason_for_recall": "Product recalled due to the presence of yellow oleander and its components in the product.",
+        "recall_initiation_date": "20240209",
+        "recall_number": "F-1170-2024",
+        "recalling_firm": "HandNatural",
+        "report_date": "20240424",
+        "source_url": "https://api.fda.gov/food/enforcement.json?search=recall_number:%22F-1170-2024%22&limit=1",
+        "status": "Ongoing"
+      },
+      "state": "RECONCILED"
+    }
+  ],
+  "source_sha256": "1a2dba7d34261fd1362e1b822b0550ce36caf525bad55590ba039e3db1d628bc",
+  "source_bytes_match": true
+}
